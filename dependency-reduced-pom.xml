@@ -19,7 +19,7 @@
             <configuration>
               <transformers>
                 <transformer>
-                  <mainClass>com.itgroup.Main</mainClass>
+                  <mainClass>com.itgroup.backup2</mainClass>
                 </transformer>
               </transformers>
             </configuration>
@@ -32,7 +32,7 @@
         <configuration>
           <archive>
             <manifest>
-              <mainClass>com.itgroup.Main</mainClass>
+              <mainClass>com.itgroup.backup2</mainClass>
             </manifest>
           </archive>
         </configuration>

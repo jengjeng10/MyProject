@@ -21,7 +21,7 @@ public class SuperDao {
         Connection conn = null;
 
         String url = "jdbc:oracle:thin:@localhost:1521:xe";
-        String id = "sundori";
+        String id = "GM";
         String password = "hello1234";
 
         try {

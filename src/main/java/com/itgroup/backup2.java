@@ -1,4 +1,4 @@
-package com.itgroup;
+/*package com.itgroup;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -10,7 +10,7 @@ import java.sql.Statement;
 //ALTER USER oraman ACCOUNT UNLOCK;
 
 
-public class Main {
+public class backup2 {
     public static void main(String[] args) {
         Connection conn = null;
         Statement stmt = null;
@@ -52,4 +52,4 @@ public class Main {
             try { if (conn != null) conn.close(); } catch (Exception ignored) {}
         }
     }
-}
+}*/
