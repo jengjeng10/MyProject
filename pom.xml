@@ -23,7 +23,7 @@
     </dependencies>
 
     <build>
-        <finalName>SomeProject</finalName>
+        <finalName>SomeoneProject</finalName>
         <plugins>
             <!--실행 가능한 JAv + 의존성 통합-->
             <plugin>
