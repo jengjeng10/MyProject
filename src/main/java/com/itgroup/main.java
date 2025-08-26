@@ -81,29 +81,28 @@ public class main {
 
         while(true){
             System.out.println("=====아이템 메뉴=====");
-            System.out.println("1: 아이템 추가, 2: 아이템 제거 , 3: 아이템 정보확인 , 4: 아이템 강화 5:모든 아이템 정보확인 ,101:되돌아가기");
+            System.out.println("1: 아이템 추가, 2: 아이템 제거 , 3: 아이템 정보확인 , 4:모든 아이템 정보확인 ,101:되돌아가기");
             System.out.print("입력 : ");
             itemMenuChoice = scan.nextInt();
+            GameManager manager = new GameManager();
 
             if(itemMenuChoice == 101){
                 break;
             }
             switch(itemMenuChoice){
                 case 1:
-
+                    manager.insertItem();
                     break;
                 case 2:
-
+                    manager.deleteItem();
                     break;
                 case 3:
-
+                    manager.findItemInfo();
                     break;
                 case 4:
-
+                    manager.allitemInfo();
                     break;
-                case 5:
 
-                    break;
             }
         }
 
